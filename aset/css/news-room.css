@@ -220,7 +220,14 @@
 .event-card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+  .media img{
+    width: 25% !important;
+  }
+  @media (max-width: 575px) {
+    .media img{
+      width: 100% !important;
+    }
+  }  
   /* Date Badge Styling */
   .date-badge {
     width: 50px;
