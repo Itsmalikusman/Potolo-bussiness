@@ -1,0 +1,82 @@
+/* BEGIN : Muhammad Munsif ID_366 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Custom Styling */
+.policy-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+.policy-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #999A9D;
+
+}
+.policy-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.blue-circle {
+    position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #00bcd4;
+  top: 20px;
+  left: -100px;
+  z-index: -1;
+}
+.img-container img {
+    width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+ /* ############ Custom Styling  #################### */
+ .property-section {
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+
+  .blue-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50px;
+    background-color: #00bcd4;
+  }
+
+  .property-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .property-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+
+  .learn-more {
+    color: #00bcd4;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+/* END : Muhammad Munsif ID_366 */
