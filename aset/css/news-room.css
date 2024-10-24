@@ -269,7 +269,8 @@
       font-size: 1rem;
       margin-bottom: 2rem;
     }
-  }
+   
+    }
   
   @media (max-width: 576px) {
     .event-card img {
@@ -311,6 +312,11 @@
       width: 80px;
       height: 80px;
     }
+    .bg-img{
+      height: 500px !important;
+      padding-inline: 20px;
+      margin-bottom: 20px;
+     }
   }
 /* END : Muhammad Munsif ID_366 */
 .contact-section {
