@@ -135,8 +135,12 @@
   }
   
   .banner-title {
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-family: "Open Sans";
+font-size: 38px;
+font-weight: 700;
+line-height: 53.15px;
+color: #FFFFFF;
+
   }
   
   .banner-description {
@@ -334,9 +338,9 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  form {
+  /* form {
     margin-top: 20px;
-  }
+  } */
   
   .btn-primary {
     background-color: #00bcd4;

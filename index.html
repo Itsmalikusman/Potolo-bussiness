@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../eco-action pg/aset/css/corporate.css">
     <link rel="stylesheet" href="./aset/css/legal.css">
 
-    <link rel="stylesheet" href="./aset/css/eco-action.css">
+    <!-- <link rel="stylesheet" href="./aset/css/eco-action.css"> -->
     <link rel="stylesheet" href="./aset/css/indec.css">
     <link rel="stylesheet" href="./aset/css/news-room.css">
 
@@ -139,26 +139,7 @@
             line-height: 1.5;
         }
 
-        ul {
-            list-style-type: none;
-            /* Remove default list bullets */
-            padding: 0;
-            /* Remove default padding */
-            margin: 0;
-            /* Remove default margin */
-        }
-
-        ul li {
-            margin-bottom: 15px;
-            /* Add space between list items, if needed */
-        }
-
-        ul li a {
-            text-decoration: none;
-            /* Remove underline from links */
-            color: inherit;
-            /* Inherit text color */
-        }
+       
 
         .whole-bg {
             background-image: url('./assets/business-section-images/whole-bg.png');
@@ -167,6 +148,26 @@
             background-position: 100% 100%;
             background-attachment: fixed;
         }
+        .whole-bg2 {
+            background: linear-gradient(to right, #00ADD40D 58.7%, transparent 50%) !important;
+        }
+        .whole-bg4 {
+                            background: linear-gradient(to right, #00ADD40D 58.7%, transparent 50%) !important;
+    border-bottom-left-radius: 20px; /* Adjust the radius as needed */
+    border-bottom-right-radius: 50px;
+    overflow: hidden; 
+                        }
+
+
+.comit-top {
+                            margin-top: 128px !important;
+                        }
+                     
+                     @media (max-width: 992px) {
+                        .comit-top {
+                            margin-top: 0px !important;
+                        }
+                     }
     </style>
 
 </head>
@@ -190,7 +191,7 @@
         </div>
     </div>
     <div class="whole-bg1">
-        <nav class=" navbar navbar-expand-lg bg-body-tertiary pb-4" style="background: transparent !important;">
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary" style="padding-bottom: 32px; background: transparent !important;">
             <div class="container">
                 <!-- Logo on the left -->
                 <!-- <a class="navbar-brand" href="#">Navbar scroll</a> -->
@@ -301,13 +302,14 @@
                     <a class="navbar-brand" href="#">
                         <div class="d-flex align-items-center gap-3">
                             <p class="nav-login mb-0">Log in</p>
-                            <button class="nav-sign-up-btn px-3" type="submit">Sign up</button>
+                            <button class="nav-sign-up-btn" type="submit">Sign up</button>
                         </div>
                     </a>
                 </form>
             </div>
         </nav>
     </div>
+    
     <!-- ********* Header-section end *********** -->
     <!-- ********* Body start *********** -->
     <!-- ********* Menus start *********** -->
@@ -353,22 +355,10 @@
                 <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     
                     <!-- Content 01 -->
-                     <style>
- .whole-bg2 {
-    background: 
-        linear-gradient(to right, #00ADD40D 58%, transparent 50%)
-        ; 
-    /* background-repeat: no-repeat;
-    background-position: top left; 
-    background-size: 200px; */
-}
-
-
-                     </style>
                     <!-- *********  Hero section *********** -->
-                    <div class="whole-bg2">
+                    <div class="whole-bg4">
                         <div class="container">
-                            <div class="row pt-5">
+                            <div class="row " style="padding-top: 79px;">
                                 <div class="col-lg-5 d-flex flex-column justify-content-center">
                                     <p class="mb-0 about-potolo-h mb-4">About <span
                                             class="about-potolo-h1">Potolo</span></p>
@@ -405,55 +395,46 @@
                     <!-- ********* Our Vision start *********** -->
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 d-flex align-item-center gap-5">
-                                <div class="col mt-5">
-
-                                    <div class="container">
-                                        <div class="vision-image-container">
-                                            <img src="./assets/business-section-images/vision-img (2).png"
-                                                alt="First Image" class="image1-vision img-fluid">
-                                            <img src="./assets/business-section-images/vision-img (1).png"
-                                                alt="Second Image" class="image2-vision img-fluid">
-                                            <img src="./assets/business-section-images/vision-img (3).png"
-                                                alt="Third Image" class="image3-vision img-fluid">
-                                        </div>
+                            <div class="col-lg-6 mt-5">
+                                
+                                <div class="container">
+                                    <div class="vision-image-container">
+                                        <img src="./assets/business-section-images/vision-img (2).png"  alt="First Image" class="image1-vision img-fluid">
+                                        <img src="./assets/business-section-images/vision-img (1).png"  alt="Second Image" class="image2-vision img-fluid">
+                                        <img src="./assets/business-section-images/vision-img (3).png"  alt="Third Image" class="image3-vision img-fluid">
                                     </div>
-
                                 </div>
-                                <div class="col mt-lg-5 d-flex align-items-center">
-                                    <div class="py-5 my-lg-5">
-                                        <p class="vision-h">Our <span class="vision-h1">Vision</span></p>
-                                        <p class="vision-p">
-                                            At POTOLO, we envision a world where local businesses thrive at the heart of
-                                            strong
-                                            communities. By empowering small enterprises to reach wider audiences, we
-                                            foster
-                                            local economic growth and sustainability, ensuring businesses and
-                                            communities
-                                            flourish together.
-                                            We aim to enhance local economies in a sustainable environment, where
-                                            businesses
-                                            and
-                                            the neighborhood create mutual prosperity.
-                                        </p>
-                                        <div class="mt-4">
-                                            <button class="lrn-btn me-2 ps-0">Learn More</button>
-                                            <img src="./assets/business-section-images/learn-more-arrow.png"
-                                                class="ms-1" style="width: 22.09px;height: 8px;">
-                                        </div>
+
+                            </div>
+                            <div class="col-lg-5 mt-5">
+                                <div class="py-lg-5 py-2 my-4 my-lg-5 resp992">
+                                    <p class="vision-h">Our <span class="vision-h1">Vision</span></p>
+                                    <p class="vision-p">
+                                        At POTOLO, we envision a world where local businesses thrive at the heart of strong
+                                        communities. By empowering small enterprises to reach wider audiences, we foster
+                                        local economic growth and sustainability, ensuring businesses and communities
+                                        flourish together.
+                                        We aim to enhance local economies in a sustainable environment, where businesses and
+                                        the neighborhood create mutual prosperity.
+                                    </p>
+                                    <div class="mt-4">
+                                        <button class="lrn-btn me-2">Learn More
+                                            <img src="./assets/business-section-images/learn-more-arrow.png" class="ms-1" style="width: 22.09px;height: 8px;">
+
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- ********* Our Vision end *********** -->
-                    <!-- ********* Our Commitment start *********** -->
-                    <div class="commitment-bg-container mt-5">
+                    <!-- ********* Our Vision end *********** -->                    
+                    <!-- ********* Our Commitment start *********** -->   
+                    <div class="commitment-bg-container comit-top">
                         <!-- Regular container for content alignment -->
                         <div class="container">
-                            <div class="row pt-lg-5">
-                                <div class="col-lg-5 mt-lg-5">
-                                    <div class="py-5 my-lg-5">
+                            <div class="row pt-lg-5 mb-5" >
+                                <div class="col-lg-6 mt-lg-5">
+                                    <div class="py-lg-5 my-lg-5">
                                         <p class="vision-h">Our <span class="vision-h1">Commitment</span></p>
                                         <p class="vision-p" style="font-size: 14px;">
                                             Our mission is to provide users with ease of accessibility and quick
@@ -473,14 +454,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 mt-lg-5">
+                                <div class="col-lg-6 mt-lg-5" style="display: flex;justify-content: flex-end;">
                                     <img src="./assets/business-section-images/commitmnt-img.png" alt="Image 1"
                                         class="img-fluid comit-img">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- ********* Our Commitment end *********** -->
+                    <!-- ********* Our Commitment end *********** -->                    
                     <!-- ********* Meet Our Team start *********** -->
                     <div class="meet-team-bg pt-5 pb-5">
                         <div class="d-flex flex-column justify-content-center">
@@ -643,6 +624,9 @@
 
                     </div>
                     <!-- ********* Meet Our Team end *********** -->
+                    
+ 
+                    
                 </div>
 
                 <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
@@ -1201,22 +1185,31 @@
                 </div>
 
                 <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                    <!-- <h3>Content for Tab 3</h3>
-                    <p>Insert your data for Tab 3 here.</p> -->
+                    <!-- content 03 -->
 
                     <!--<#####> /* BEGIN : Muhammad Munsif ID_366 */ <#####>-->
 
-                    <section>
+                    <!-- *********  Hero section *********** -->
+                    <div class="whole-bg4">
                         <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="p-4">
-                                        <h2 class="">
-                                            Your Source for the <span>Latest Updates</span> and
-                                            <span>Insights</span>
-                                        </h2>
-                                        <p class="text-dark p-3 rounded">
-                                            Encouraging Local Farmers and Their Fresh Produce. POTOLO is
+                            <div class="row " style="padding-top: 79px;">
+                                <div class="col-lg-5 d-flex flex-column justify-content-center">
+                                    <p class="mb-0 about-potolo-h mb-4" style="
+                                    font-size: 36px;
+                                    font-weight: 400;
+                                    line-height: 54.47px;">
+                                    Your Source for the <span
+                                            class="about-potolo-h1" style="font-family: Open Sans;
+                                            font-size: 36px;
+                                            font-weight: 600;
+                                            line-height: 54.47px;">Latest Updates </span> and <span
+                                            class="about-potolo-h1" style="font-family: Open Sans;
+                                            font-size: 36px;
+                                            font-weight: 600;
+                                            line-height: 54.47px;">Insights </span>
+                                    </p>
+                                    <p class="mb-0 about-potolo-detail">
+                                        Encouraging Local Farmers and Their Fresh Produce. POTOLO is
                                             dedicated to supporting local farmers and encouraging their
                                             fresh produce on a daily basis. We are committed to
                                             sustainability and source foods directly from local farms for
@@ -1225,65 +1218,110 @@
                                             markets and strong local economies. Initiatives this year
                                             showcased organic fruits, vegetables, dairy products, free-range
                                             meats, and more.
-                                        </p>
-                                        <a href="#" class="btn btn-primary rounded px-4 py-2">
-                                            Learn More <i class="fas fa-arrow-right ms-2"></i>
-                                        </a>
+                                    </p>
+                                    <div class="" style="margin-top: 43px;">
+                                         <button
+                                                class="btn lrn-btn1 d-flex justify-content-center align-items-center">Learn
+                                                More
+                                                <img class="ms-3" src="./assets/business-section-images/white-aro.png"
+                                                    style="width: 20.09px;height: 8px;">
+                                            </button>
+                                        
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-12 img-container text-center">
-                                    <img src="./assets/news-room-images/imageone.png" class="img-fluid rounded"
-                                        alt="Accessibility Policy Team" />
+                                <div class="col-lg-7">
+                                    <img class="img-fluid" style="width: 100%;"
+                                        src="./assets/news-room-images/imageone.png">
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                    <!-- *********  Hero section *********** -->
+
+                  
                     <section class="recent-news py-5">
                         <div class="container">
-                            <div class="d-flex justify-content-between align-items-center mb-4">
-                                <h2 class="section-title text-center">Recent News</h2>
-                                <a href="#" class="see-all-link">See All →</a>
+                            <div class="d-flex justify-content-center align-items-center mb-5 position-relative">
+                                <p class=" mb-0" style="font-family: Open Sans; color: black;
+                                font-size: 27px;
+                                font-weight: 600;
+                                line-height: 40.85px;">Recent News</p>
+                                <a href="#" class="see-all-link position-absolute end-0">See All →</a>
                             </div>
+                            
 
                             <!-- Banner Section -->
+                           <div class="container">
                             <div class="row p-3 mb-4"
-                                style="background-image: url(assets/news-room-images/imageeight.png);">
-                                <div class="col-md-4   d-flex align-items-center  justify-content-center text-start">
-                                    <h3 class="banner-title text-white">
-                                        Get Every Single Updates Here.
-                                    </h3>
-                                </div>
-                                <div class="col-lg-4  d-flex align-items-center justify-content-center">
-                                    <p class="banner-description text-white">
-                                        A list of recent press releases and news articles highlighting
-                                        important company updates, new services, and community
-                                        initiatives.
-                                    </p>
-                                </div>
-                                <div class="col-4 d-flex align-items-center justify-content-center">
-                                    <div class="ml-auto blue-dot"></div>
-                                </div>
+                            style="background-image: url(assets/news-room-images/imageeight.png);">
+                            <div class="col-md-4   d-flex align-items-center  justify-content-center text-start">
+                                <h3 class="banner-title text-white">
+                                    Get Every Single Updates Here.
+                                </h3>
                             </div>
+                            <div class="col-lg-4  d-flex align-items-center justify-content-center">
+                                <p class="banner-description text-white">
+                                    A list of recent press releases and news articles highlighting
+                                    important company updates, new services, and community
+                                    initiatives.
+                                </p>
+                            </div>
+                            <div class="col-4 d-flex align-items-center justify-content-center">
+                                <div class="ml-auto blue-dot"></div>
+                            </div>
+                        </div>
+                           </div>
 
-                            <!-- News Cards -->
+                            
+                            <!-- News Cards start -->
                             <div class="row">
+
+                                <!-- <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="..." class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div> -->
+
+                                <div class="card" style="max-width: 540px">
+                                    <img src="./assets/news-room-images/imagetwo.png"
+                                                class="img-fluid rounded-start"  style="height: 310px; width: 100%;" alt="..." />
+                                                <div class="news-card-body px-2" style="border: 1.5px solid lightgrey; width: 240px; max-width: 100%;">
+                                               
+                                                    <h5 class="date-ok">25, February, 2019</h5>
+                                                    <p class="break-news-text">
+                                                        Breaking News: Stay Updated on PotoloLite's Latest Developments"
+                                                    </p>
+                                                    <a href="" style="text-decoration: none;">Read more</a>
+                                                    <p class="mb-0 hours-ago">5 hours ago</p>
+                                                    
+                                                </div>
+                                </div>
+
                                 <div class="col-md-6 mb-4 card mb-3" style="max-width: 540px">
                                     <div class="row g-0">
                                         <div class="col-md-4">
                                             <img src="./assets/news-room-images/imagetwo.png"
-                                                class="img-fluid rounded-start" alt="..." />
+                                                class="img-fluid rounded-start"  style: alt="..." />
                                         </div>
                                         <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">
-                                                    This is a wider card with supporting text below as a natural
-                                                    lead-in to additional content. This content is a little bit
-                                                    longer.
+                                            <div class="news-card-body px-2" style="border: 1.5px solid lightgrey; width: 240px; max-width: 100%;">
+                                               
+                                                <h5 class="date-ok">25, February, 2019</h5>
+                                                <p class="break-news-text">
+                                                    Breaking News: Stay Updated on PotoloLite's Latest Developments"
                                                 </p>
-                                                <p class="card-text">
-                                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                                                </p>
+                                                <a href="" style="text-decoration: none;">Read more</a>
+                                                <p class="mb-0 hours-ago">5 hours ago</p>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -1325,6 +1363,7 @@
                 </div>
               </div> -->
                             </div>
+                            <!-- News Cards end -->
                         </div>
                     </section>
 
@@ -2203,7 +2242,7 @@
     </div>
     <!-- ********* Menus end *********** -->
     <!-- ********* Footer start *********** -->
-    <div class="bg-ft mt-5">
+    <div class="bg-ft mt-lg-5">
         <div class="container">
             <footer>
 
