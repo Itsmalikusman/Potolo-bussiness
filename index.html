@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <link rel="icon" href="./assets/business-section-images/logo-img.png" type="image/x-icon">
+    <!-- AOS Animation CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+
 
     <link rel="stylesheet" href="../eco-action pg/aset/css/corporate.css">
     <link rel="stylesheet" href="./aset/css/legal.css">
@@ -22,8 +25,6 @@
     <link rel="stylesheet" href="./aset/css/eco-action.css">
     <link rel="stylesheet" href="./aset/css/indec.css">
     <link rel="stylesheet" href="./aset/css/news-room.css">
-
-
     <style>
         a {
             text-decoration: none;
@@ -403,9 +404,9 @@
                     </div>
                     <!-- *********  Hero section *********** -->
                     <!-- ********* Our Vision start *********** -->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 d-flex align-item-center gap-5">
+                    <div class="container data-aos="zoom-in">
+                        <div class="row data-aos="zoom-in">
+                            <div class="col-12 d-flex align-item-center gap-5 data-aos="zoom-in" >
                                 <div class="col mt-5">
 
                                     <div class="container">
@@ -1977,7 +1978,7 @@
                     <!--<#####> /* BEGIN : Muhammad Munsif ID_366 */ <#####>-->
                     <!--<#####> Accessibility Policy Section <#####>-->
                     <section class="policy-section ">
-                        <div class="container mt-md-5 mt-3 legal-font">
+                        <div class="container mt-md-5 mt-3 legal-font data-aos="fade-up-left">
                             <div class="row align-items-center">
                                 <!--<#####><#####> Left Column: Text Content <#####><#####>-->
                                 <div class="col-lg-6 position-relative">
@@ -1997,7 +1998,7 @@
                                 </div>
 
                                 <!--<#####> Right Column: Image <#####>-->
-                                <div class="col-lg-6 img-container">
+                                <div class="col-lg-6 img-container" data-aos="zoom-in" >
                                     <img src="./assets/legal-images/image01.png" alt="Accessibility Policy Team" />
                                 </div>
                             </div>
@@ -2005,7 +2006,7 @@
                     </section>
                     <!--<#####> Anti-Discrimination Policy Section <#####>-->
                     <section class="policy-section ">
-                        <div class="container mt-md-5 mt-3 legal-font">
+                        <div class="container mt-md-5 mt-3 legal-font data-aos="zoom-in">
                             <div class="row align-items-center">
                                 <!--<#####> Right Column: Image <#####>-->
                                 <div class="col-lg-6 img-container">
@@ -2335,6 +2336,15 @@
     <!-- ********* Body end  *********** -->
 
     <!-- cards-carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+     <!-- Initialize AOS -->
+     <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const track = document.querySelector('.carousel-track');
