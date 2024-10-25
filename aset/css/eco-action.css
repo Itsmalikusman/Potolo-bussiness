@@ -412,8 +412,8 @@
 .sect-2::before {
     content: '';
     position: absolute;
-    width: 7rem;
-    height: 16rem;
+    height: 55%;
+    width: 20%;
     top: -20px;
     background-color: #00ADD4;
     opacity: 45%;
@@ -431,8 +431,8 @@
 .sect-3::before {
     content: '';
     position: absolute;
-    width: 7rem;
-    height: 16rem;
+    height: 55%;
+    width: 20%;
     top: -20px;
     right: -5px;
     background-color: #00ADD4;
@@ -442,6 +442,8 @@
 .sect-3-img img {
     position: relative;
 }
+/* ############################ sect-3 #################### */
+/* ############################ sect-4 #################### */
 
 
 .sect-4 {
@@ -451,8 +453,8 @@
 .sect-4::before {
     content: '';
     position: absolute;
-    width: 7rem;
-    height: 16rem;
+    height: 55%;
+    width: 20%;
     top: -20px;
     left: -5px;
     /* right:-5px; */
@@ -464,6 +466,7 @@
     position: relative;
 }
 
+/* ############################ sect-4 #################### */
 
 /* ############### Cards ################ */
 
