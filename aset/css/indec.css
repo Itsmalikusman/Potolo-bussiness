@@ -58,8 +58,8 @@ border: none;
 .location_div::before{
  content: '';
  position: absolute;
- height: 18rem;
- width: 8rem;
+ height: 60%;
+ width: 20%;
  top: -3rem;
  right: 0;
  background-color:#00ADD4 ;
@@ -77,8 +77,8 @@ position: relative;
 .ir_sect1::before{
     position: absolute;
     content: '';
-    height: 18rem;
- width: 8rem;
+    height: 55%;
+    width: 20%;
  top: -1.6rem;
  left: -5px;
  background-color:#00ADD4 ;
@@ -95,8 +95,8 @@ position: relative;
     .ir_sect2::before{
         position: absolute;
         content: '';
-        height: 18rem;
-     width: 8rem;
+        height: 55%;
+     width: 20%;
      top: -1.6rem;
      right: -10px;
      background-color:#00ADD4 ;
@@ -113,8 +113,8 @@ position: relative;
     .ir_sect3::before{
         position: absolute;
         content: '';
-        height: 18rem;
-     width: 8rem;
+        height: 55%;
+     width: 20%;
      top: -1.6rem;
      left: -5px;
      background-color:#00ADD4 ;
@@ -131,8 +131,8 @@ position: relative;
     .ir_sect4::before{
         position: absolute;
         content: '';
-        height: 18rem;
-     width: 8rem;
+        height: 55%;
+        width: 20%;
      top: -1.6rem;
      right: -10px;
      background-color:#00ADD4 ;
