@@ -1,5 +1,6 @@
 /* Default Styles for All Tabs */
 .nav-tabs .nav-link-blue {
+    margin-bottom: 0px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -51,7 +52,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 58%;
+    width: 58.7%;
     /* This will cover half the container */
     background-color: #00ADD40D;
     /* Your color */
@@ -62,8 +63,8 @@
 }
 
 .whole-bg2 {
-    background: linear-gradient(to right, #00ADD40D 58%, transparent 50%);
-    background-image: url('./assets/business-section-images/ellipse.png'); /* Add your image path here */
+    background: linear-gradient(to right, #00ADD40D 58.7%, transparent 50%);
+    background-image: url('./'); /* Add your image path here */
     background-repeat: no-repeat;
     background-position: top left; /* Position the image in the top-left corner */
     background-size: 200px;
