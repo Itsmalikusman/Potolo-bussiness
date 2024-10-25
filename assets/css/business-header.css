@@ -4,6 +4,12 @@
 
 }
 
+/* @media (max-width: 992px) {
+    .stiky-top {
+display: none;    
+    }
+} */
+
 .stiky-top-item {
     color: #FFFFFF;
     font-family: "Ubuntu";

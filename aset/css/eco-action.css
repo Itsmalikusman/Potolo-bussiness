@@ -63,6 +63,10 @@
 
 .whole-bg2 {
     background: linear-gradient(to right, #00ADD40D 58%, transparent 50%);
+    background-image: url('./assets/business-section-images/ellipse.png'); /* Add your image path here */
+    background-repeat: no-repeat;
+    background-position: top left; /* Position the image in the top-left corner */
+    background-size: 200px;
 }
 
 .about-potolo-h {
